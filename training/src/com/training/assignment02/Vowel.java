@@ -17,7 +17,7 @@ public class Vowel {
 			char val = txt.charAt(i);
 			if (compare(val,"a") || compare(val,"e") || compare(val,"i") || compare(val,"o") || compare(val,"u")) {
 				counter += 1;
-				txt = txt.replace(Character.toString(val), "");
+				txt = txt.replace(Character.toString(val), " ");
 			}
 		}
 		System.out.println("Total vowels : " + counter);
